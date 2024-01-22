@@ -39,13 +39,6 @@ public class LogoutFragment extends Fragment {
                 getActivity().finish();
             }
         });
-
-
-
-
-
-
-
         return  view ;
     }
 
