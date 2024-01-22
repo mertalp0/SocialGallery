@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:padding="10sp"
+    android:paddingHorizontal="10sp"
+    android:paddingVertical="10sp"
+    android:paddingStart="10sp"
+    android:paddingLeft="10sp"
+    android:paddingTop="10sp"
+    android:paddingEnd="10sp"
+    android:paddingRight="10sp"
+    android:paddingBottom="10sp"
+    tools:context=".ui.label.LabelFragment">
+
+
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="168dp"
+        android:layout_height="38dp"
+        android:layout_gravity="center"
+        android:layout_marginStart="9dp"
+        android:layout_marginTop="26dp"
+        android:layout_marginEnd="9dp"
+        android:layout_marginBottom="26dp"
+        android:gravity="center"
+        android:text="Add Label"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/addlabeltxt"
+        app:layout_constraintEnd_toEndOf="@+id/addlabeltxt"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/addlabeltxt"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/addlabeltxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginStart="12dp"
+        android:layout_marginBottom="15dp"
+        android:ems="10"
+        android:hint="label giriniz"
+        android:inputType="text"
+        app:layout_constraintBottom_toTopOf="@+id/descriptiontxt"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.428"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView14" />
+
+    <Button
+        android:id="@+id/addLabelBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="7dp"
+        android:text="ekle"
+        app:layout_constraintBottom_toTopOf="@+id/textView12"
+        app:layout_constraintEnd_toEndOf="@+id/textView12"
+        app:layout_constraintStart_toStartOf="@+id/textView12"
+        app:layout_constraintTop_toBottomOf="@+id/descriptiontxt" />
+
+    <EditText
+        android:id="@+id/descriptiontxt"
+        android:layout_width="197dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="14dp"
+        android:ems="10"
+        android:foregroundGravity="center"
+        android:hint="description giriniz"
+        android:inputType="text"
+        app:layout_constraintBottom_toTopOf="@+id/addLabelBtn"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/addlabeltxt" />
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="181dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="17dp"
+        android:layout_marginEnd="17dp"
+        android:gravity="center"
+        android:text="Labels"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@+id/addlabeltxt"
+        app:layout_constraintStart_toStartOf="@+id/addlabeltxt"
+        app:layout_constraintTop_toBottomOf="@+id/addLabelBtn" />
+
+    <ScrollView
+        android:layout_width="344dp"
+        android:layout_height="386dp"
+        android:layout_gravity="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.728"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.954">
+
+        <LinearLayout
+            android:id="@+id/layout"
+            android:layout_width="298dp"
+            android:layout_height="56dp"
+            android:layout_marginEnd="56dp"
+            android:orientation="vertical"
+            app:layout_constraintEnd_toEndOf="parent"
+            tools:layout_editor_absoluteY="346dp"></LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

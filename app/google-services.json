@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "545995174051",
+    "project_id": "socialgallery-9c823",
+    "storage_bucket": "socialgallery-9c823.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:545995174051:android:e17df501978c574659cf16",
+        "android_client_info": {
+          "package_name": "com.example.socialgallery"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAQqxGc8-1KAcj3CVYt05-CPhEpnznh010"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
